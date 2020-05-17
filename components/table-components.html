@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <!-- Help character display properly. -->
+    <meta charset="utf-8">
+    <!-- Force some Outlook clients to render with a better MS engine. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the initial scale of the email. -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Help prevent blue links and autolinking if needed. -->
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <!-- Prevent Apple from reformatting and zooming messages. -->
+    <meta name="x-apple-disable-message-reformatting">
+    <!-- Use the title for assistive technology and when people open emails in a browser tab.  -->
+    <title></title>
+    <!-- Allow for better image rendering on Windows hi-DPI displays. -->
+    <!--[if mso]>
+    <xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <style>
+        /* Client-specific reset styles. */
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img { -ms-interpolation-mode: bicubic; }
+
+        /* General reset styles. */
+        img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+        table { border-collapse: collapse !important; }
+        body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+        /* Prevent Apple blue links. */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* Prevent Gmail blue links. */
+        u + #body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        /* Prevent Samsung blue links. */
+        #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        /* Provide default styles for links and hovers. */
+        a { color: blue; font-weight: bold; }
+        a:hover { color: black; text-decoration: none; }
+
+        /* Responsive styles taking a desktop-first approach. */
+        @media screen and (max-width: 600px) {
+            
+        }
+    </style>
+</head>
+<!-- Set a body id for Gmail blue links and disable default margins and padding. -->
+<body id="body" style="margin: 0 !important; padding: 0 !important;">
+    <!-- Make your email an accessible article. -->
+    <div role="article" aria-roledescription="email" aria-label="email name" lang="en" style="font-size:1rem">
+
+        <!-- All email content goes here. -->
+        <!-- It can be helpful to set default font styles on a container element. -->
+        <!-- Override those settings on a per-element basis as needed. -->
+        <div style="color: #000000; font-family: sans-serif; font-size: 18px; font-weight: normal; line-height: 1.8; margin: 1rem auto; max-width: 800px;">
+
+            <p style="margin: 0 0 1rem 0;">Tables are used to struction most HTML email campaigns. When using tables for structuring and styling content, you should override some attributes like <code style="background-color: gainsboro; color: rebeccapurple; font-family: monospace;">border, cellpadding, cellspacing</code> with a value of zero, <code style="background-color: gainsboro; color: rebeccapurple; font-family: monospace;">width</code> for the necessary width, and take the tables out of the accessibility tree by including <code style="background-color: gainsboro; color: rebeccapurple; font-family: monospace;">role="presentation"</code> on every table tag.</p>
+
+            <p style="margin: 0 0 1rem 0;">View the source of this page to see some tables.</p>
+
+            <!-- This is a basic table. -->
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                <tr>
+                    <td>
+                        <!-- Content goes here. -->
+                    </td>
+                </tr>
+            </table>
+
+            <!-- This is a typical single-column table layout. -->
+            <!-- Target the .mobile class and override to width: 100% !important; to make it responsive on smaller screens. -->
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                <tr>
+                    <td>
+                        <table border="0" class="mobile" cellpadding="0" cellspacing="0" role="presentation" width="600px">
+                            <tr>
+                                <td>
+                                    <!-- Content goes here. -->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- This is a typical two-column table. -->
+            <!-- Same rule applies to making columns responsive. -->
+            <!-- Due to an Outlook rendering artifact, you should make columns add up to slightly less than 100% or else they will be misaligned when rendered. -->
+            <!-- Add tables and adjust widths as needed for more than two columns. Test the hell out of things if you start going more than three or four columns deep. -->
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                <tr>
+                    <td>
+                        <table border="0" class="mobile" cellpadding="0" cellspacing="0" role="presentation" width="600px">
+                            <tr>
+                                <td>
+                                    <!-- This is the left column. -->
+                                    <table align="left" border="0" class="mobile" cellpadding="0" cellspacing="0" role="presentation" width="48%">
+                                        <tr>
+                                            <td>
+                                                <!-- Content goes here. -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- This is the right column. -->
+                                    <table align="right" border="0" class="mobile" cellpadding="0" cellspacing="0" role="presentation" width="48%">
+                                        <tr>
+                                            <td>
+                                                <!-- Content goes here. -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+</body>
+</html>

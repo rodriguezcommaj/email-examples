@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <!-- Help character display properly. -->
+    <meta charset="utf-8">
+    <!-- Force some Outlook clients to render with a better MS engine. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the initial scale of the email. -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Help prevent blue links and autolinking if needed. -->
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <!-- Prevent Apple from reformatting and zooming messages. -->
+    <meta name="x-apple-disable-message-reformatting">
+    <!-- Use the title for assistive technology and when people open emails in a browser tab.  -->
+    <title></title>
+    <!-- Allow for better image rendering on Windows hi-DPI displays. -->
+    <!--[if mso]>
+    <xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <style>
+        /* Client-specific reset styles. */
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img { -ms-interpolation-mode: bicubic; }
+
+        /* General reset styles. */
+        img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+        table { border-collapse: collapse !important; }
+        body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+        /* Prevent Apple blue links. */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* Prevent Gmail blue links. */
+        u + #body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        /* Prevent Samsung blue links. */
+        #MessageViewBody a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        /* Provide default styles for links and hovers. */
+        a { color: blue; font-weight: bold; }
+        a:hover { color: black; text-decoration: none; }
+
+        /* Responsive styles taking a desktop-first approach. */
+        @media screen and (max-width: 600px) {
+            
+        }
+    </style>
+</head>
+<!-- Set a body id for Gmail blue links and disable default margins and padding. -->
+<body id="body" style="margin: 0 !important; padding: 0 !important;">
+    <!-- Make your email an accessible article. -->
+    <div role="article" aria-roledescription="email" aria-label="email name" lang="en" style="font-size:1rem">
+
+        <!-- All email content goes here. -->
+        <!-- It can be helpful to set default font styles on a container element. -->
+        <!-- Override those settings on a per-element basis as needed. -->
+        <div style="color: #000000; font-family: sans-serif; font-size: 18px; font-weight: normal; line-height: 1.8; margin: 1rem auto; max-width: 800px;">
+
+            <p style="margin: 0 0 1rem 0;">Images are a necessary component of most email campaigns. The key to using them properly is making them <strong>a)</strong> responsive when necessary <strong>b)</strong> high-DPI for current and future displays and <strong>c)</strong> accessible using descriptive alternative text.</p>
+
+            <!-- This image uses the width attribute and inline styles to stay responsive. -->
+            <!-- Remove that bit when needed e.g. for logos or icons. -->
+            <!-- display: block; is used to prevent unnecessary whitespace around images. -->
+            <img alt="An example of a responsive image in email." src="http://placehold.it/1600x800" width="800" border="0" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+
+            <!-- This image is not responsive by default. -->
+            <img alt="" src="http://placehold.it/1600x800" width="800" border="0">
+            
+            <!-- This image is decorative, so the alternative text is left blank. -->
+            <img alt="" src="http://placehold.it/1600x800" width="800" border="0" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+
+            <!-- You can also include normal text styles inline to style the alternative text. -->
+            <!-- This is useful to stay on-brand when images are disabled. -->
+            <img alt="An example of styled alternative text in email." src="http://placehold.it/1400x800" width="800" border="0" style="color: black; font-family: sans-serif; font-size: 24px; font-weight: bold; display: block; max-width: 100%; min-width: 100px; width: 100%;">
+        </div>
+    </div>
+</body>
+</html>
